@@ -1,4 +1,6 @@
-#Integrantes: Ximena Alejandra Rodriguez Salamanca, Jordy Santiago Bautista Sepulveda
+# Integrantes: 
+* Ximena Alejandra Rodriguez Salamanca 
+* Jordy Santiago Bautista Sepulveda 
 
 mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=ClasesEquivalencia -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -Dpackage=edu.eci.cvds.tdd
 
@@ -7,6 +9,8 @@ mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=ClasesEquivalencia -D
 Con mvn package se verifica la compilacion del proyecto
 
 Con mvn test corremos todos los test de la aplicacion y aparece el test 
+
+# TDD
 
 Para las pruebas unitarias los cinco escenarios que vamos a validar son:
 
